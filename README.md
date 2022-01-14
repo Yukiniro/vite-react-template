@@ -2,3 +2,4 @@
 - [O] prettier
 - [X] stylelint
 - [X] less/sass
+- [X] git-hook
