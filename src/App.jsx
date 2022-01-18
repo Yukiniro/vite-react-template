@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div className={Style.app}>
-    <p className={Style.title}>Thank to use vite-react-template</p>
+      <p className={Style.title}>Thank to use vite-react-template</p>
       <p>
         <button
           type="button"

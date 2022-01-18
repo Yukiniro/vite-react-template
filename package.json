@@ -10,7 +10,7 @@
     "eslint:fix": "npx eslint --fix src/**/*.jsx",
     "stylelint": "npx stylelint src/**/*.{less,css}",
     "stylelint:fix": "npx stylelint --fix src/**/*.{less,css}",
-    "lint": "npm run prettier:jsx && npm run eslint:fix && npm run stylelint:fix"
+    "lint": "npm run prettier:jsx && npm run eslint:fix && npm run stylelint:fix && git add ."
   },
   "dependencies": {
     "react": "^17.0.2",
