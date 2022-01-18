@@ -11,6 +11,7 @@ specifiers:
   eslint-plugin-promise: ^5.0.0
   eslint-plugin-react: ^7.28.0
   eslint-plugin-react-hooks: ^4.3.0
+  husky: ^7.0.4
   less: ^4.1.2
   postcss: ^8.4.5
   postcss-less: ^6.0.0
@@ -40,6 +41,7 @@ devDependencies:
   eslint-plugin-promise: 5.2.0_eslint@7.32.0
   eslint-plugin-react: 7.28.0_eslint@7.32.0
   eslint-plugin-react-hooks: 4.3.0_eslint@7.32.0
+  husky: 7.0.4
   less: 4.1.2
   postcss: 8.4.5
   postcss-less: 6.0.0_postcss@8.4.5
@@ -1501,6 +1503,12 @@ packages:
   /html-tags/3.1.0:
     resolution: {integrity: sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==}
     engines: {node: '>=8'}
+    dev: true
+
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
+    engines: {node: '>=12'}
+    hasBin: true
     dev: true
 
   /iconv-lite/0.4.24:
