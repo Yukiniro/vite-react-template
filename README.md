@@ -1,8 +1,9 @@
 # vite-react-template
 
-This template is built from vite, ESLint, Prettier, add stylelint.
+This template is built from vite, ESLint, Prettier, and stylelint.
 
 ## Basic Use
-Install dependencies <code>pnpm i</code>
-<br />
-Run dev <code>vite</code>
+
+Install dependencies `pnpm i`
+
+Run dev `vite`

@@ -1,6 +1,6 @@
 {
   "name": "vite-react-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +12,8 @@
     "stylelint:fix": "npx stylelint --fix src/**/*.{less,css}",
     "lint": "npm run prettier:jsx && npm run eslint:fix && npm run stylelint:fix"
   },
+  "author": "Yukiniro",
+  "keywords": ["react", "vite", "template"],
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
