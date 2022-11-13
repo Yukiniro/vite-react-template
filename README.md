@@ -2,8 +2,17 @@
 
 This template is built from vite, ESLint, Prettier, and stylelint.
 
-## Basic Use
+## Features
+
+- Vite
+- React
+- Eslint
+- Prettier
+
+## Useage
+
+`degit Yukiniro/vite-react-template your-project-name`
 
 Install dependencies `pnpm i`
 
-Run dev `vite`
+Run `npx vite`
