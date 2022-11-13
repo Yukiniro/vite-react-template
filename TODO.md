@@ -1,4 +1,4 @@
-[ ] typescript
+[x] typescript
 [ ] dart mode
 [ ] route
 [ ] unocss
