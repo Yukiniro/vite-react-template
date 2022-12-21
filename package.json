@@ -5,9 +5,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prettier:jsx": "npx prettier --write src/**/*.jsx",
-    "eslint": "npx eslint src/**/*.jsx",
-    "eslint:fix": "npx eslint --fix src/**/*.jsx",
+    "prettier:jsx": "npx prettier --write src/**/*.tsx",
+    "eslint": "npx eslint src/**/*.tsx",
+    "eslint:fix": "npx eslint --fix src/**/*.tsx",
     "stylelint": "npx stylelint src/**/*.{less,css}",
     "stylelint:fix": "npx stylelint --fix src/**/*.{less,css}",
     "lint": "npm run prettier:jsx && npm run eslint:fix && npm run stylelint:fix"
@@ -20,7 +20,8 @@
   ],
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
