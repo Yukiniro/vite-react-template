@@ -5,11 +5,14 @@
     "stylelint-config-idiomatic-order"
   ],
   "customSyntax": "postcss-less",
-  "plugins": [
-    "stylelint-order",
-    "stylelint-prettier"
-  ],
+  "plugins": ["stylelint-order", "stylelint-prettier"],
   "rules": {
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind"]
+      }
+    ]
   }
 }

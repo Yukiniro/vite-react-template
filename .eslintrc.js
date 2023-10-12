@@ -11,4 +11,9 @@ module.exports = {
   rules: {
     "prettier/prettier": 2,
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };
