@@ -6,8 +6,10 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
   ],
-  plugins: ["react", "prettier"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["react", "prettier", "@typescript-eslint"],
   rules: {
     "prettier/prettier": 2,
   },
@@ -16,4 +18,5 @@ module.exports = {
       version: "detect",
     },
   },
+  root: true,
 };

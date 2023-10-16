@@ -1,15 +1,25 @@
-import { useState } from "react";
+import { useState, ChangeEventHandler } from "react";
 import { ReactComponent as LogoSvg } from "./icon/logo.svg";
 import { ReactComponent as FaviconSvg } from "./icon/favicon.svg";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  const handleSwapHandle: ChangeEventHandler<HTMLInputElement> = e => {
+    const checked = e.target.checked;
+    const themeDom = document.querySelector("[data-theme]");
+    themeDom.setAttribute("data-theme", checked ? "dark" : "light");
+  };
+
   return (
-    <div className="w-screen h-screen bg-gray-800 text-center flex flex-col items-center justify-center">
+    <div className="w-screen h-screen bg-base-100 text-center flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold font-mono">React + Vite + daisyUI</h1>
       <label className="swap swap-flip p-14">
-        {/* this hidden checkbox controls the state */}
-        <input type="checkbox" />
+        <input
+          type="checkbox"
+          onChange={handleSwapHandle}
+          data-toggle-theme="dark,light"
+        />
         <LogoSvg className="w-40 h-40 swap-on" />
         <FaviconSvg className="w-40 h-40 swap-off" />
       </label>
