@@ -1,9 +1,0 @@
-{
-  "src/**/*": [
-    "npx eslint --fix",
-    "npx prettier --write"
-  ],
-  "src/**/*.{less,css}": [
-    "npx stylelint --fix"
-  ]
-}

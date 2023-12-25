@@ -1,6 +1,6 @@
 import { useState, ChangeEventHandler } from "react";
-import { ReactComponent as LogoSvg } from "./icon/logo.svg";
-import { ReactComponent as FaviconSvg } from "./icon/favicon.svg";
+import LogoSvg from "./icon/logo.svg?react";
+import FaviconSvg from "./icon/favicon.svg?react";
 
 function App() {
   const [count, setCount] = useState(0);
